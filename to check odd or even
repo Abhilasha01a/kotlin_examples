@@ -1,0 +1,15 @@
+fun main() {
+    print("Enter a number: ")
+    val x = readln() 
+    val z=x.toIntOrNull()
+    if(z!=null){
+        val y=if(z%2==0){
+            "number is even"
+        }else{
+            "number is odd!"
+        }
+        println(y)
+    }else{
+        println("give the input in number format!")
+    }
+}
