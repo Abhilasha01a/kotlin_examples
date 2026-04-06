@@ -1,0 +1,11 @@
+import java.util.Scanner
+
+fun main() {
+    val reader = Scanner(System.`in`)
+    print("Enter two numbers: ")
+    
+    val num1 = reader.nextInt()
+    val num2 = reader.nextInt()
+    
+    println("Sum: ${num1 + num2}")
+}
